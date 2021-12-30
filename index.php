@@ -137,6 +137,7 @@ p.con_info {
     Echo date("l, Y-m-d H:i:s") . " UTC";
  Echo'</span>';
 ?>
-<p>v1.1</p>
+<br>
+<a href="https://github.com/Schr3iber/ip.schr3iber.de">v1.1</p>
 </body>
 </html>
