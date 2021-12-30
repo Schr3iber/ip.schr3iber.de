@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ip.schr3iber.de</title>
     <link type="text/css" rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/ip.icon" href="cyber.png" />
 </head>
 <body>
 <?php
