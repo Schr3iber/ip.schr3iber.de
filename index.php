@@ -78,7 +78,7 @@
 //Date
  Echo "<br>";
  Echo '<span class="mark_blue">';
-    date_default_timezone_set("Europa/London");
+    date_default_timezone_set("Europe/London");
     Echo date("l, Y-m-d H:i:s") . " UTC";
  Echo'</span>';
 ?>
