@@ -17,6 +17,9 @@
  $port_user = getenv("REMOTE_PORT");
  $port_server = getenv("SERVER_PORT");
 
+//user agent
+ $user_agent = getenv('HTTP_USER_AGENT');
+
 //revers DNS with RIPEstar
  $rDNS_url = "https://stat-ui.stat.ripe.net/data/reverse-dns-ip/data.json?resource=" . $ip_user;
  $json_rDNS = file_get_contents($rDNS_url);
@@ -81,6 +84,8 @@
     date_default_timezone_set("Europe/London");
     Echo date("l, Y-m-d H:i:s") . " UTC";
  Echo'</span>';
+ Echo "<br>";
+ Echo $user_agent;
 ?>
 <br>
 <a href="https://github.com/Schr3iber/ip.schr3iber.de">v1.1</p>
