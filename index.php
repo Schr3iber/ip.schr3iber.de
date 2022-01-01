@@ -57,7 +57,7 @@
      $brackets2 = "";
  }
 
-//output
+//IP/rDNS output
  Echo " request";
  Echo '<br>';
  Echo "from ";
@@ -80,11 +80,15 @@
 
 //Date
  Echo "<br>";
+ Echo "at ";
  Echo '<span class="mark_blue">';
     date_default_timezone_set("Europe/London");
     Echo date("l, Y-m-d H:i:s") . " UTC";
  Echo'</span>';
  Echo "<br>";
+
+//User Agent
+ Echo "usning ";
  Echo '<span class="mark_blue">';
     Echo $user_agent;
  Echo'</span>';
