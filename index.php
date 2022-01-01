@@ -94,6 +94,6 @@
  Echo'</span>';
 ?>
 <br>
-<a href="https://github.com/Schr3iber/ip.schr3iber.de">v1.1</p>
+<a href="https://github.com/Schr3iber/ip.schr3iber.de">v1.2</p>
 </body>
 </html>
