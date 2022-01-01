@@ -85,7 +85,9 @@
     Echo date("l, Y-m-d H:i:s") . " UTC";
  Echo'</span>';
  Echo "<br>";
- Echo $user_agent;
+ Echo '<span class="mark_blue">';
+    Echo $user_agent;
+ Echo'</span>';
 ?>
 <br>
 <a href="https://github.com/Schr3iber/ip.schr3iber.de">v1.1</p>
