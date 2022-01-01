@@ -34,20 +34,20 @@
     Echo'</span>';
 }
 
-//IPv4 red, IPv6 green
+
+//IPv4 red, IPv6 green and brackets for IPv6
  if (strpos($ip_user, '.')) {
+   $brackets1 = "";
+   $brackets2 = "";
    Echo '<span class="mark_red">';
         Echo "IPv4";
  }else{
+    $brackets1 = "[";
+    $brackets2 = "]";
     Echo '<span class="mark_green">';
         Echo "IPv6";
  }
  Echo '</span>';
-
-
-//brackets for IPv6
- $brackets1 = "[";
- $brackets2 = "]";
 
  if (strpos($ip_user, '.')) {
      $brackets1 = "";
