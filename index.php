@@ -88,7 +88,7 @@
  Echo "<br>";
 
 //User Agent
- Echo "usning ";
+ Echo "using ";
  Echo '<span class="mark_blue">';
     Echo $user_agent;
  Echo'</span>';
