@@ -30,13 +30,11 @@
  if ($port_server == '80'){
     Echo '<span class="mark_red">';
         Echo "unencrypted "; 
-    Echo'</span>';
  }else {
     Echo '<span class="mark_green">';
         Echo "encrypted "; 
-    Echo'</span>';
-}
-
+ }
+ Echo'</span>';
 
 //IPv4 red, IPv6 green and brackets for IPv6
  if (strpos($ip_user, '.')) {
