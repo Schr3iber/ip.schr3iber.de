@@ -70,7 +70,7 @@
 
  Echo "to "; 
  Echo '<span class="mark_blue">';
-    Echo $brackets1 . $ip_server . ":" . $port_server . $brackets2;
+    Echo $brackets1 . $ip_server . $brackets2 . ":" . $port_server;
  Echo'</span>';
  Echo '<span class="mark_green">';
     Echo " (ip.schr3iber.de)";
@@ -92,6 +92,6 @@
  Echo'</span>';
 ?>
 <br>
-<a href="https://github.com/Schr3iber/ip.schr3iber.de">v1.2</p>
+<a href="https://github.com/Schr3iber/ip.schr3iber.de">v1.21</p>
 </body>
 </html>
